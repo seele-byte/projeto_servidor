@@ -1,0 +1,2 @@
+2026-03-06T12:48:51.870469+00:00 goatlhermo sshd[1568]: Connection closed by invalid user goatlhermo 192.168.56.1 port 47076 [preauth]
+

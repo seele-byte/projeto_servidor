@@ -1,0 +1,88 @@
+2026-03-06T12:20:13.978687+00:00 goatlhermo login[940]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+
+2026-03-06T12:20:13.979851+00:00 goatlhermo login[940]: PAM adding faulty module: pam_lastlog.so
+
+2026-03-06T12:20:18.725600+00:00 goatlhermo login[940]: pam_unix(login:auth): check pass; user unknown
+
+2026-03-06T12:20:18.725869+00:00 goatlhermo login[940]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+2026-03-06T12:20:22.129677+00:00 goatlhermo login[940]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+
+2026-03-06T12:20:36.979770+00:00 goatlhermo login[940]: pam_unix(login:auth): check pass; user unknown
+
+2026-03-06T12:20:36.980760+00:00 goatlhermo login[940]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+2026-03-06T12:20:40.229459+00:00 goatlhermo login[940]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+
+2026-03-06T12:20:52.248376+00:00 goatlhermo login[940]: pam_unix(login:session): session opened for user guigui(uid=1000) by LOGIN(uid=0)
+
+2026-03-06T12:20:52.510449+00:00 goatlhermo (systemd): pam_unix(systemd-user:session): session opened for user guigui(uid=1000) by guigui(uid=0)
+
+2026-03-06T12:25:01.220305+00:00 goatlhermo CRON[1256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:25:01.233794+00:00 goatlhermo CRON[1256]: pam_unix(cron:session): session closed for user root
+
+2026-03-06T12:35:01.251448+00:00 goatlhermo CRON[1336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:35:01.263140+00:00 goatlhermo CRON[1336]: pam_unix(cron:session): session closed for user root
+
+2026-03-06T12:38:05.347754+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:38:05.502145+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:40:05.952800+00:00 goatlhermo sshd[1374]: Accepted password for guigui from 127.0.0.1 port 35642 ssh2
+
+2026-03-06T12:40:05.959479+00:00 goatlhermo sshd[1374]: pam_unix(sshd:session): session opened for user guigui(uid=1000) by guigui(uid=0)
+
+2026-03-06T12:40:43.179817+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:40:46.804790+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:41:08.798548+00:00 goatlhermo sshd[1463]: Accepted password for guigui from 127.0.0.1 port 50360 ssh2
+
+2026-03-06T12:41:08.806187+00:00 goatlhermo sshd[1463]: pam_unix(sshd:session): session opened for user guigui(uid=1000) by guigui(uid=0)
+
+2026-03-06T12:45:01.279304+00:00 goatlhermo CRON[1551]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:45:01.295481+00:00 goatlhermo CRON[1551]: pam_unix(cron:session): session closed for user root
+
+2026-03-06T12:47:43.617657+00:00 goatlhermo sshd[1568]: Invalid user goatlhermo from 192.168.56.1 port 47076
+
+2026-03-06T12:47:50.953897+00:00 goatlhermo sshd[1568]: pam_unix(sshd:auth): check pass; user unknown
+
+2026-03-06T12:47:50.954933+00:00 goatlhermo sshd[1568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1 
+
+2026-03-06T12:47:53.362395+00:00 goatlhermo sshd[1568]: Failed password for invalid user goatlhermo from 192.168.56.1 port 47076 ssh2
+
+2026-03-06T12:48:02.257204+00:00 goatlhermo sshd[1568]: pam_unix(sshd:auth): check pass; user unknown
+
+2026-03-06T12:48:04.643321+00:00 goatlhermo sshd[1568]: Failed password for invalid user goatlhermo from 192.168.56.1 port 47076 ssh2
+
+2026-03-06T12:48:51.870469+00:00 goatlhermo sshd[1568]: Connection closed by invalid user goatlhermo 192.168.56.1 port 47076 [preauth]
+
+2026-03-06T12:48:51.874392+00:00 goatlhermo sshd[1568]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1 
+
+2026-03-06T12:49:03.056621+00:00 goatlhermo sshd[1579]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=guigui
+
+2026-03-06T12:49:05.483367+00:00 goatlhermo sshd[1579]: Failed password for guigui from 192.168.56.1 port 43252 ssh2
+
+2026-03-06T12:49:11.771723+00:00 goatlhermo sshd[1579]: Accepted password for guigui from 192.168.56.1 port 43252 ssh2
+
+2026-03-06T12:49:11.779343+00:00 goatlhermo sshd[1579]: pam_unix(sshd:session): session opened for user guigui(uid=1000) by guigui(uid=0)
+
+2026-03-06T12:51:59.149241+00:00 goatlhermo sudo: pam_unix(sudo:auth): authentication failure; logname=guigui uid=1000 euid=0 tty=/dev/pts/1 ruser=guigui rhost=  user=guigui
+
+2026-03-06T12:52:05.896479+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:53:08.854796+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:53:19.510587+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:54:25.640786+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:55:01.305857+00:00 goatlhermo CRON[6751]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:55:01.319488+00:00 goatlhermo CRON[6751]: pam_unix(cron:session): session closed for user root
+
+2026-03-06T12:56:19.518574+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+

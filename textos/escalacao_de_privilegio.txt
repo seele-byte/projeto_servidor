@@ -1,0 +1,38 @@
+2026-03-06T12:25:01.220305+00:00 goatlhermo CRON[1256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:35:01.251448+00:00 goatlhermo CRON[1336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:38:05.328859+00:00 goatlhermo sudo:   guigui : TTY=tty1 ; PWD=/home/guigui ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+
+2026-03-06T12:38:05.347754+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:38:05.502145+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:40:43.173901+00:00 goatlhermo sudo:   guigui : TTY=pts/0 ; PWD=/home/guigui ; USER=root ; COMMAND=/usr/bin/pro status
+
+2026-03-06T12:40:43.179817+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:40:46.804790+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:45:01.279304+00:00 goatlhermo CRON[1551]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:51:59.149241+00:00 goatlhermo sudo: pam_unix(sudo:auth): authentication failure; logname=guigui uid=1000 euid=0 tty=/dev/pts/1 ruser=guigui rhost=  user=guigui
+
+2026-03-06T12:52:05.892590+00:00 goatlhermo sudo:   guigui : TTY=pts/1 ; PWD=/home/guigui ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure keyboard-configuration
+
+2026-03-06T12:52:05.896479+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:53:08.854796+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:53:19.506725+00:00 goatlhermo sudo:   guigui : TTY=pts/1 ; PWD=/home/guigui ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure keyboard-configuration
+
+2026-03-06T12:53:19.510587+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
+2026-03-06T12:54:25.640786+00:00 goatlhermo sudo: pam_unix(sudo:session): session closed for user root
+
+2026-03-06T12:55:01.305857+00:00 goatlhermo CRON[6751]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+
+2026-03-06T12:56:19.509813+00:00 goatlhermo sudo:   guigui : TTY=pts/1 ; PWD=/home/guigui ; USER=root ; COMMAND=/usr/bin/tar -czf logs.tar.gz /var/log
+
+2026-03-06T12:56:19.518574+00:00 goatlhermo sudo: pam_unix(sudo:session): session opened for user root(uid=0) by guigui(uid=1000)
+
