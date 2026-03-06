@@ -4,10 +4,7 @@ from palavras_importantes import *
 caminho = Path("/home/gabriel/servidor/logs/var/log/auth.log")
 
 
-logs_logins_autenticacao = []
-logs_escalonamento_de_privilegio = []
-logs_ataque_automatizado = []
-logs_rede_conexao_firewall = []
+logs_logins_autenticacao,logs_escalonamento_de_privilegio,logs_ataque_automatizado,logs_rede_conexao_firewall = [],[],[],[]
 
 with open(caminho, "r") as arquivo:
     for linha in arquivo:
